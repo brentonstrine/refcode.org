@@ -108,13 +108,16 @@ textarea {
    }
    footer {
      position: relative;
+     width: 100%;
+     padding-left: calc(50% - 490px);
+     padding-right: calc(50% - 490px);
    }
    footer:after {
      content: "after";
      position: absolute;
      top: 0;
-     left: -50%;
-     right: -50%;
+     left: 0;
+     right: 0;
      height: 1px;
      background-color: #444;
    }
